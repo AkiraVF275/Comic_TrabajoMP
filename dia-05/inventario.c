@@ -10,8 +10,7 @@ void inicializar_inventario(Inventario *inv) {
 }
 
 Logico añadir_objeto(Inventario *inv, Objeto obj) {
-    /* ERROR DÍA 5: No sabemos redimensionar todavía. 
-       Si se llena, el jugador pierde el objeto para siempre. */
+    /
     if (inv->n_objetos >= inv->capacidad) {
         printf("\n[ERROR]: Inventario lleno. No puedes llevar mas de 5 objetos.\n");
         return FALSO;

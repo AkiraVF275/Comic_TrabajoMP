@@ -7,11 +7,11 @@
 typedef struct {
     char id[4];
     char nombre[20];
-    char desc[50]; // Descripción más corta que en el futuro
+    char desc[50]; 
 } Objeto;
 
 typedef struct {
-    Objeto lista[100]; // Array estático: desperdicia mucha RAM
+    Objeto lista[100]; 
     int total;
 } Inventario;
 

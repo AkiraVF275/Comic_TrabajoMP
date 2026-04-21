@@ -15,7 +15,7 @@ void mostrar_bienvenida();
 int mostrar_menu_principal();
 
 /**
- * @brief Muestra la sala (en el Día 5 esto fallaba con los buffers).
+ * @brief imprime la escena actual.
  */
 void imprimir_escena(Partida p, Sala s);
 

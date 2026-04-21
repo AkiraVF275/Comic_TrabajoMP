@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <string.h>
 
-// VARIABLES GLOBALES (Mala práctica que corregiremos en el futuro)
-char inv_nombres[10][20]; // Solo caben 10 nombres de objetos
+
+char inv_nombres[10][20]; 
 int inv_total = 0;
 char sala_actual[50] = "Laboratorio de la ESI";
 
@@ -40,8 +40,6 @@ int main() {
         } else {
             break;
         }
-        // ERROR DÍA 3: Sin limpieza de pantalla ni de buffer. 
-        // El texto se amontona y el teclado falla.
     }
     
     return 0;

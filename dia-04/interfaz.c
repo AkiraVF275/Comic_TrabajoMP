@@ -9,7 +9,7 @@ int menu() {
     int o;
     printf("1. Jugar\n2. Salir\nOpcion: ");
     scanf("%d", &o); 
-    // ERROR DÍA 4: Ni siquiera sabemos que el buffer existe.
+    
     return o;
 }
 
