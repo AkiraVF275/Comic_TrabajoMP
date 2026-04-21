@@ -14,7 +14,7 @@ Evolución desde el Día 4:
 
 
 
-\### ❌ Los fallos de hoy:
+Los fallos de hoy:
 
 1\. \*\*Memoria Rígida:\*\* En `inventario.c`, la función `añadir\_objeto` no usa `realloc`. El inventario tiene un muro insuperable de 5 espacios.
 
